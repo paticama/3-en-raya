@@ -341,7 +341,7 @@ while i == 0:
         elif difi == 3:
             print ('Modo por implementar')
         else:
-            print ('Bro, aprende a leer, de UNO a TRES')  
+            print ('De UNO a TRES')  
 
 
         '''
