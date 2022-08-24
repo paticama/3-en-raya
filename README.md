@@ -3,10 +3,10 @@ Es un juego de 3 en raya
 
 ## Roadmap
 
---> **Modo dos jugadores** (Completado) 
+--> **Modo dos jugadores** ✔️
 
---> *Modo un jugador*
+--> **Modo un jugador** ✔️
 
---> Distintas dificultades en el modo un jugador
+--> *Distintas dificultades en el modo un jugador* ⏳
 
 --> Gráfica
