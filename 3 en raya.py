@@ -161,8 +161,10 @@ def jueg_2():
                 tablero()
             else:
                 print ('Esa casilla ya ha sido seleccionada.')
-    if turno == 9:
+    if turno == 9 and victoria() == False:
         print ('Empate, ¡Bien jugado!')
+
+
 def jueg_1():
     tablero()
     respuestas = ['A1','A2','A3','B1','B2','B3','C1','C2','C3']  #Sirve para comprobar que las casillas existen
@@ -316,7 +318,7 @@ def jueg_1():
                 tablero()
             else:
                 print ('Esa casilla ya ha sido seleccionada.')
-    if turno == 9:
+    if turno == 9 and victoria() == False:
         print ('Empate, ¡Bien jugado!')
 
 
@@ -329,10 +331,25 @@ while i == 0:
         print ('Lo sentimos, el número máximo de jugadores es 2, y, el mínimo 1.')
         print ('')
     elif jug == 1:
+        difi = int(input('Seleccione dificultad de 1 a 3 '))
+        print ('')
+        if difi == 1:
+            i += 1
+            jueg_1()
+        elif difi == 2:
+            print ('Modo por implementar')
+        elif difi == 3:
+            print ('Modo por implementar')
+        else:
+            print ('Bro, aprende a leer, de UNO a TRES')  
+
+
+        '''
         print ('Perfecto, iniciando juego.')
         print ('')
         i += 1
         jueg_1()
+        '''
     else:
         print ('Perfecto, iniciando juego.')
         print ('')
